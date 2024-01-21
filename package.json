@@ -1,0 +1,34 @@
+{
+  "name": "mbr-todo",
+  "version": "0.0.1",
+  "description": "TODO List",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --build ./client/tsconfig.json ./server/tsconfig.json",
+    "start": "mbr-dev-server --port=7090 ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MadBrozzeR/todo.git"
+  },
+  "keywords": [
+    "todo"
+  ],
+  "author": "MadBrozzeR",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MadBrozzeR/todo/issues"
+  },
+  "homepage": "https://github.com/MadBrozzeR/todo#readme",
+  "devDependencies": {
+    "@types/node": "^20.11.5",
+    "mbr-serv-request": "^0.2.3",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "mbr-state": "^0.2.0",
+    "mbr-style": "^1.1.2",
+    "splux": "^1.6.1"
+  }
+}
